@@ -1,0 +1,94 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+.ticTacToe{
+  text-align: center;
+  color: blue;
+}
+.mainBox{
+  height: 600px;
+  width: 600px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.firstBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:70px;
+  left:420px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.secondBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:70px;
+  left:620px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.thirdBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:70px;
+  left:820px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.fourthBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:270px;
+  left:420px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.fifthBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:270px;
+  left:620px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.sixthBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:270px;
+  left:820px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.seventhBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:470px;
+  left:420px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.eighthBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:470px;
+  left:620px;
+  border: blue solid;
+  margin: 0 auto;
+}
+.ninthBox{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:470px;
+  left:820px;
+  border: blue solid;
+  margin: 0 auto;
+}
