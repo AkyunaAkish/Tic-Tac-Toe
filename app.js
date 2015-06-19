@@ -435,3 +435,34 @@ if(firstBox.innerHTML === 'O' && fifthBox.innerHTML === 'O' && ninthBox.innerHTM
 
 }
 }
+
+
+
+var http = require('http'),
+    fs = require('fs')
+    var port = process.env.PORT || 9001;
+
+    var acceptedTypes = {
+        'css': 'text/css',
+        'html': 'text/html',
+        'ico': 'image/x-icon',
+      }
+
+    var server = http.createServer(function(req, res){
+
+       var urlPath = req.url === '/' ? '/index.html' : req.url;
+
+
+      fs.readFile('.'+urlPath,function(err,file){
+        if(err){
+          console.log(urlPath);
+          res.writeHead(404);
+          res.write("404");
+        }
+        res.end(file)
+      })
+    });
+
+    server.listen(port, function() {
+   console.log('running on port ' + port)
+    });
