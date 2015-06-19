@@ -1,94 +1,181 @@
 *, *:before, *:after{
   box-sizing: border-box;
 }
+body{
+  background-image: url("http://www.hdwallspaper.com/wp-content/uploads/2015/01/cool-space-desktop-hd-wallpapers-background.jpg")
+}
 .ticTacToe{
+  opacity: 0.9;
   text-align: center;
-  color: blue;
-}
-.mainBox{
-  height: 600px;
-  width: 600px;
-  border: blue solid;
+  color: white;
+  background: black;
+  width: 10%;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 0.3%;
   margin: 0 auto;
+  border: 5px double blue;
+  /* font: italic 1.6em "Open Sans", sans-serif; */
+  font-family: fantasy;
 }
+
 .firstBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:70px;
   left:420px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .secondBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:70px;
   left:620px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .thirdBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:70px;
   left:820px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .fourthBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:270px;
   left:420px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .fifthBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:270px;
   left:620px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .sixthBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:270px;
   left:820px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .seventhBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:470px;
   left:420px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .eighthBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:470px;
   left:620px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
 }
 .ninthBox{
+  opacity: 0.9;
+  font-family: fantasy;
+  background: black;
   height: 200px;
   width: 200px;
   position: absolute;
   top:470px;
   left:820px;
-  border: blue solid;
+  border: 5px blue double;
   margin: 0 auto;
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.refresh{
+  opacity: 0.8;
+  background: black;
+  border: 3px double blue;
+  color: white;
+  font-size:50px;
+  text-decoration: none;
+  position: absolute;
+  top: 72.7%;
+  text-align: center;
+  font-family: fantasy;
+  width: 18%;
+  height: 19%;
+  margin-left: 10%;
 }
